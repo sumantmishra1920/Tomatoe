@@ -19,11 +19,9 @@ const Header = () => {
     >
       {/* Top Navigation Bar */}
       <div className="absolute top-5 left-5 right-5 m-4 flex space-x-4 text-white justify-between md:justify-start md:space-x-4">
-        <div className="flex space-x-4">
+        <div className="z-10 flex space-x-4">
           <Link to="/" className="hover:underline text-xl">Home</Link>
           <Link to="/about" className="hover:underline text-xl">About</Link>
-        </div>
-        <div className="flex space-x-4">
           <Link to="/cart" className="hover:underline text-xl flex items-center">
             Cart 🛒
             {totalQuantity > 0 && (
