@@ -10,6 +10,7 @@ import ScrollToBottom from './components/ScrollToBottom'; // Import the new comp
 
 const App = () => (
   <Router>
+    <Router basename="/Tomatoe"></Router>
     <Header />
     <ScrollToBottom /> {/* Add this component */}
     <Routes>
