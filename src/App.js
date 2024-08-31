@@ -9,8 +9,7 @@ import SignUp from './components/SignUp';
 import ScrollToBottom from './components/ScrollToBottom'; // Import the new component
 
 const App = () => (
-  <Router>
-    <Router basename="/Tomatoe"></Router>
+  <Router basename="/Tomatoe">
     <Header />
     <ScrollToBottom /> {/* Add this component */}
     <Routes>
